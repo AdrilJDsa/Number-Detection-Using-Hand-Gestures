@@ -5,7 +5,7 @@ from keras.preprocessing.image import ImageDataGenerator
 import tensorflow as tf
 word_dict = {0: 'One', 1: 'Two', 2: 'Three', 3: 'Four', 4: 'Five', 5: 'Six'}
 
-model = keras.models.load_model(r"C:\Users\Nihal Mohan\Desktop\Desktop Items\Engineering\4TH SEM\Projects\AML Project\NumberDetection\best_model_asl.h5")
+model = keras.models.load_model(r"ModelDirectory.h5")
 
 
 background = None
